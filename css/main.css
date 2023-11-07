@@ -1,0 +1,51 @@
+
+
+.item{
+    position: relative;
+}
+.item-caption{
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+
+.lightbox-container{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.lightbox-item{
+    width: 60%;
+    height: 500px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.recipes-img{
+    height: 150px;
+}
+
+header{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+
+header nav .container-fluid .collapse ul li a:hover{
+    cursor: pointer;
+    color: firebrick;
+}

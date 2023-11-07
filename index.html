@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Project-One</title>
+</head>
+<body>
+    <!-- This File Up -->
+    <header class="min-vh-100">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top top-0 start-0 end-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Recipes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Pizza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pasta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Hamburger</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Chicken</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Champ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Fish</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- This File Up -->
+    </header>
+    
+    <section>
+        <!-- second portfolio 3-->
+        <div class="container py-2">
+            <div class="row gy-5">
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-1.jpg" alt="portfolio-1">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-3.jpg" alt="portfolio-2">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-4.jpg" alt="portfolio-3">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-3.jpg" alt="portfolio-4">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-4.jpg" alt="portfolio-2">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img class="w-100" src="images/portfolio-1.jpg" alt="portfolio-1">
+                        <div class="item-caption bg-white p-2">
+                            <h3>item title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lightbox-container">
+            <div class="lightbox-item">
+                <i id="prev" class="fa fa-arrow-alt-circle-left fa-2x mx-3"></i>
+                <i id="next" class="fa fa-arrow-alt-circle-right fa-2x mx-3"></i>
+                <i id="close" class="fa fa-times-circle fa-2x"></i>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container py-5">
+            <h1 class="text-center my-3">Recipes</h1>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="receipesData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Receipes Data</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="receipesInfo" class="modal-body">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="recipesData" class="row gy-5">
+        
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
